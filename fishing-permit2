@@ -1,0 +1,44 @@
+<html>
+<head>
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<style>
+​
+.red{
+    color:red;
+    }
+.form-area
+{
+    background-color: #FAFAFA;
+	padding: 10px 40px 60px;
+	margin: 10px 0px 60px;
+	border: 1px solid GREY;
+	}
+</style>
+</head>
+<body>
+<div class="container">
+<div class="col-md-5">
+    <div class="form-area">  
+        <form role="form">
+        <br style="clear:both">
+                    <h3 style="margin-bottom: 25px; text-align: center;">State of Arizona Fishing Permit</h3>
+    				<div class="form-group">
+    				    <label>Name</label>
+						<input type="text" class="form-control" id="name" name="name" placeholder="Susan Smith" required>
+					</div>
+					<div class="form-group">
+					    <label>Camping Location</label>
+						<input type="text" class="form-control" id="email" name="email" placeholder="Colorado River" required>
+					</div>
+					<div class="form-group">
+    				    <label>Dates</label>
+						<input type="text" class="form-control" id="mobile" name="mobile" placeholder="October 1st, 2019 - October 5th, 2019" required>
+					</div>
+​
+        </form>
+    </div>
+</div>
+</div>
+</body>
